@@ -3,5 +3,4 @@
 import { runBot } from './vendor/makefun-bot.ts';
 import { createStrategy, DEFAULT_PARAMS } from './strategy.ts';
 
-const params = { ...DEFAULT_PARAMS };
-await runBot(createStrategy(params));
+await runBot(createStrategy(DEFAULT_PARAMS));
